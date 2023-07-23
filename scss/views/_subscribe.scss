@@ -1,0 +1,76 @@
+#main_subscribe{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+#img_subscribe{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 4;
+
+}
+
+#subscribe_form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    outline: none;
+    font-family: $font_type;
+    font-size: $font_sm;
+}
+
+#select_country{
+    width: 100%;
+    padding: 5px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    outline: none;
+    color: gray;
+    font-family: $font_type;
+    font-size: $font_sm;
+
+}
+option{
+    color: black;
+}
+
+textarea{
+    width: 100%;
+    height: 31vh;
+    padding: 5px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    resize: none;
+    outline: none;
+    font-family: $font_type;
+    font-size: $font_sm;
+
+}
+
+#submit_buttoms{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#submit_buttom:hover{
+    background-color: gray;
+
+}
+
+#reset_buttom:hover{
+    background-color: gray;
+
+}
+

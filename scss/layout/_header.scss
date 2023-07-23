@@ -1,0 +1,40 @@
+ header {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    padding: 5px;
+    background-color: $bg_color;
+}
+
+#fakelogo {
+    flex-grow: 4;
+}
+
+#nav_header {
+    flex-grow: 1;
+}
+
+#menu {
+    display: flex;
+    flex-shrink: 4;
+    justify-content: end;
+    }
+
+#menu li {
+    list-style-type: none;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: $font_type;
+    font-size: $font_md;
+    padding: 5px;
+}
+
+#menu li a:hover{
+    color: gray;
+}

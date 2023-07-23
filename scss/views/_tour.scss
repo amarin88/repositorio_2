@@ -1,0 +1,35 @@
+#img_tour{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding: 5px;
+
+}
+#tour_dates{
+    color: white;
+    font-family: $font_type;
+    font-size: $font_sm;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 2.5px;
+    align-items: center;
+    justify-items: center;
+}
+
+#tour_dates li{
+    list-style-type: none;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#tour_dates li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#tour_dates li a:hover{
+    color: gray;
+}

@@ -1,0 +1,41 @@
+#main_watch{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "video_uno text_uno"
+    "text_dos video_dos";
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+#watch_video_uno{
+    grid-area: video_uno;
+    order: 1;
+}
+
+#watch_video_dos{
+    grid-area: video_dos;
+    order: 4;
+}
+
+#text_uno{
+    grid-area: text_uno;
+    order: 2;
+    color: white;
+    font-size: $font_lg;
+    font-family: $font_type;
+}
+
+#text_dos{
+    grid-area: text_dos;
+    order: 3;
+    color: white;
+    font-size: $font_lg;
+    font-family: $font_type;
+}
