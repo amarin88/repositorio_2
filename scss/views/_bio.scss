@@ -1,16 +1,18 @@
-#img_bio{
+#main_bio{
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    flex-shrink: 4;
-    padding: 5px;
 }
 
-#bio_text{
+#img_bio{
+    border-radius: 25px;
+}
+
+#text_bio{
     color: white;
     font-family: $font_type;
     font-size: $font_sm;
-    justify-content: center;
     text-align: justify;
-    padding: 5px;
+    padding: 25px;
 }

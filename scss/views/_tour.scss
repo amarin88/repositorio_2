@@ -1,11 +1,15 @@
-#img_tour{
+#main_tour{
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding: 5px;
-
 }
-#tour_dates{
+
+#img_tour{
+    border-radius: 25px;
+}
+#dates_tour{
+    margin: 10px;
     color: white;
     font-family: $font_type;
     font-size: $font_sm;
@@ -17,19 +21,18 @@
     justify-items: center;
 }
 
-#tour_dates li{
+#dates_tour li{
     list-style-type: none;
     border: 0.5px solid white;
     border-radius: 3px;
     padding: 5px;
 }
 
-#tour_dates li a{
+#dates_tour li a{
     color: white;
     text-decoration: none;
-
 }
 
-#tour_dates li a:hover{
+#dates_tour li a:hover{
     color: gray;
 }
