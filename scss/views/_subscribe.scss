@@ -1,33 +1,35 @@
 #main_subscribe{
+    width: 100%;
+    padding: 35px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 25px;
-
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
 }
 
 #img_subscribe{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    border-radius: 25px;
-    order: 1;
-
+    padding: 5px 30px;
+}
+#img_subscribe img{
+    width: 100%;
 }
 
 #form_subscribe{
     display: flex;
-    align-items: center;
-    flex-grow: 1;
+    flex-grow: 0.5;
     flex-direction: column;
-    padding: 5px;
-    order: 2;
+    padding: 5px 30px;
+}
+
+form{
+    width: 100%;
 }
 
 input{
-    width: 50%;
+    width: 100%;
     padding: 5px;
-    border: 0.5px solid black;
+    border: $border_subscribe;
     border-radius: 3px;
     outline: none;
     font-family: $font_type;
@@ -35,12 +37,12 @@ input{
 }
 
 #select_country{
-    width: 50%;
+    width: 100%;
     padding: 5px;
-    border: 0.5px solid black;
+    border: $border_subscribe;
     border-radius: 3px;
     outline: none;
-    color: gray;
+    color: $color_accesory;
     font-family: $font_type;
     font-size: $font_sm;
 
@@ -50,10 +52,10 @@ option{
 }
 
 textarea{
-    width: 50%;
-    height: 31vh;
+    width: 100%;
+    height: 10%;
     padding: 5px;
-    border: 0.5px solid black;
+    border: $border_subscribe;
     border-radius: 3px;
     resize: none;
     outline: none;
@@ -63,7 +65,6 @@ textarea{
 }
 
 #submit_buttoms{
-    width: 50%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -77,12 +78,12 @@ textarea{
 }
 
 #submit_buttom:hover{
-    background-color: gray;
+    background-color: $color_accesory;
 
 }
 
 #reset_buttom:hover{
-    background-color: gray;
+    background-color: $color_accesory;
 
 }
 

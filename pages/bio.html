@@ -3,34 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="..//css/style.css">
     <title>FANTASYBAND WEB</title>
 </head>
-<body>
+<body class="container-fluid">
     <header>
-        <div id="logo"><img src="../assets/img/logo.jpg" alt="logo"></div>
-        <nav id="nav_header">
-            <ul id="menu">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./bio.html">BIO</a></li>
-                <li><a href="./watch.html">WATCH</a></li>
-                <li><a href="./tour.html">TOUR</a></li>
-                <li><a href="./subscribe.html">SUBSCRIBE</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar fixed-top navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">            
+            <div class="container-fluid">
+                <a class="navbar-brand"><img src="../assets/img/logo.jpg" alt="logo" width="50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../pages/bio.html">BIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/watch.html">WATCH</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/tour.html">TOUR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/subscribe.html">SUBSCRIBE</a></li>
+                    </div>
+                </div>
+            </nav>
     </header>
-    <main id="main_bio">
-        <div id="img_bio"><img src="..//assets/img/bio.jpg" alt="img_bio"></div>
+    <main id="main_bio">        
+        <div id="carousel_bio1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel_bio1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"> </button>
+            <button type="button" data-bs-target="#carousel_bio1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel_bio1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/img/bio1.webp" class="d-block w-100" alt="bio1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/bio2.webp" class="d-block w-100" alt="bio2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/bio3.webp" class="d-block w-100" alt="bio3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_bio1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel_bio1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <div id="text_bio">
-            FANTASYBAND started in 2008 as the recording project of Brad Oberhofer. After moving from his native Tacoma, Washington to New York City, FANTASYBAND attended New York University to study music composition.[2] After using several different names, the young singer adopted his own name as the title of the project. Although the band has since gone through various lineup formations, the name has remained the same because FANTASYBAND writes all the music himself.[3]<br>
-            In 2010, FANTASYBAND self-released his first single o0Oo0O0o and was soon asked to go on tour with bands like Sleigh Bells, Neon Indian, and Matt and Kim.[2] After hitting the road for a year, Oberhofer released Away Frm U (sic) and I Could Go in 2011. The two singles brought the attention of independent label White Iris Records who released the band's next single Gotta Go/Mahwun in the summer of 2011. Soon after, Oberhofer signed with Glassnote Records to release their debut album.[4] Stereogum ranked the band as the No. 39 most anticipated album of 2012.[5]<br>                
-            Brad began work on Time Capsules II in the studio with Grammy Award winning producer Steve Lillywhite in November 2011, recording vocals and most instrumental tracks himself, and pulling in bandmates and other instrumentalists to complete certain tracks. Glassnote released Time Capsules II on in the United States on March 27, 2012.[6] In anticipation for the release, the band performed "Away Frm U" on the Late Show with David Letterman.[7]<br>
-            FANTASYBAND performed widely in clubs and on the festival circuit in support of Time Capsules II. Recent notable performances include in the Mojave Tent at the 2012 edition of the Coachella Valley Music and Arts Festival.[8] and the Budweiser stage at Lollapalooza in Chicago on August 5, 2012.[9] They performed at the Austin City Limits Music Festival on October 13, 2013.[10]<br>
-            Their song "I Could Go" was included as a sound track of the free ride biking movie "Where The Trail Ends" sponsored by brands such as Specialized Bicycle Components, Red Bull and others. Many of their other songs have been licensed to Television programs, Advertisements, and online series, including, Catfish: The TV Show, Skins, LUV, T-Mobile, SoBe, BoJack Horseman, Kevin from Work, Underemployed, Teen Wolf, Table 19.<br>
-            Their song "Gold" also was included as a sound track of the soccer simulation game by Konami, Pro Evolution Soccer 2013. In 2016, their song "Sea of Dreams" from Chronovision was prominently featured in the fourth episode of season 3 of Netflix's animated TV series BoJack Horseman, "Fish Out of Water", which was voted Time Magazine's Best episode of television in 2016.
+            FANTASYBAND started in 2002 as the recording project of John Peter. After moving from his native Wisconsin Dells to New York City, Peter attended New York University to study music composition.[2] After using several different names, the young singer adopted his own name as the title of the project. Although the band has since gone through various lineup formations, the name has remained the same because John Peter writes all the music himself.[3]<br>
+            In 2004, FANTASYBAND self-released his first single “Song n°1” and was soon asked to go on tour with bands like Band n°1, Band n°2, and Band n°3.[2] After hitting the road for a year, FANTASYBAND released “Song n°2” and “Song n°3” in 2006. The two singles brought the attention of independent label Fantasy Records who released the band's next single “Song n°4” in the summer of 2008. Soon after, FANTASYBAND signed with Another Fantasy Records to release their debut album.[4] “FANTASYBAND ALBUM” ranked the band as the No. 26 most anticipated album of 2009.[5]<br>                
+            John Peter began work on “FANTASYBAND ALBUM N°2” in the studio with Grammy Award winning producer Peter Johnson in May 2010, recording vocals and most instrumental tracks himself, and pulling in bandmates and other instrumentalists to complete certain tracks. John Peter released “FANTASYBAND ALBUM N°2” on in the United States on March 11, 2011.[6] In anticipation for the release, the band performed "Song n°3" on the Late Show with David Letterman.[7]<br>
+            FANTASYBAND performed widely in clubs and on the festival circuit in support of “FANTASYBAND ALBUM N°2”. Recent notable performances include in the fantasy Tent at the 2012 edition of the FANTASYFESTIVAL.[8] and the fantasy stage at anotherFANTASYFESTIVAL in Chicago on August 5, 2012.[9] They performed at the ANOTHER Music Festival on October 13, 2013.[10]<br>
+            Their song “Song n°4” was included as a sound track of the free ride biking movie "FANTASYMOVIE" sponsored by brands such as fantasybrand Bicycle Components, anotherfantasybrand and others. Many of their other songs have been licensed to Television programs, Advertisements, and online series, etc.<br>
+            Their song “Song n°2” also was included as a sound track of the soccer simulation game by FANTASYGAMES, FANTASY Soccer 2013. In 2016, their song “Song n°3” from FANTASYBAND ALBUM N°2 was prominently featured in the fourth episode of season 3 of Netflix's animated TV series fantasyserie, "fantasy episode", which was voted Time Magazine's Best episode of television in 2016.
         </div>
     </main>
     <footer>
@@ -46,5 +77,6 @@
         </nav>
         <div id="copyright">Copyright 2023</div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,18 +1,14 @@
 #follow{
     text-decoration: none;
-    color: white;
-    font-size: $font_lg;
+    color: $font_color;
+    text-align: center;
+    font-size: $font_md;
     font-family: $font_type;
-}
-
-#nav_footer{
-    justify-content: center;
 }
 
 #menu_social_media{
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    padding-left: 0;
 }
 
 #menu_social_media li{
@@ -27,10 +23,10 @@
 #copyright{
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: $font_color;
     font-family: $font_type;
     font-size: $font_md;
     text-align: center;
-    border: 0.5px solid white;
+    border: 0.5px solid $color_accesory;
     border-radius: 3px;
 }

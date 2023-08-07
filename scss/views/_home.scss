@@ -1,9 +1,15 @@
 #main_home{
-    height: 65vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#img_home{
-    border-radius: 25px;
+#carousel_index{
+    width: 70%;
+    padding-bottom: 10px;
+}
+#carousel_index img{
+    width: 100%;
 }

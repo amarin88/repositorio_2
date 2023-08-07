@@ -5,12 +5,16 @@
     justify-content: center;
 }
 
-#img_tour{
-    border-radius: 25px;
+#carousel_tour{
+    width: 60%;
+}
+
+#carousel_tour img{
+    width: 100%;
 }
 #dates_tour{
-    margin: 10px;
-    color: white;
+    padding: 35px;
+    color: $font_color;
     font-family: $font_type;
     font-size: $font_sm;
     display: grid;
@@ -19,6 +23,7 @@
     row-gap: 2.5px;
     align-items: center;
     justify-items: center;
+    text-align: center;
 }
 
 #dates_tour li{
@@ -29,10 +34,10 @@
 }
 
 #dates_tour li a{
-    color: white;
+    color: $font_color;
     text-decoration: none;
 }
 
 #dates_tour li a:hover{
-    color: gray;
+    color: $color_accesory
 }

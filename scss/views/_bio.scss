@@ -5,14 +5,17 @@
     justify-content: center;
 }
 
-#img_bio{
-    border-radius: 25px;
+#carousel_bio1{
+    width: 60%;
+}
+#carousel_bio1 img{
+    width: 100%;
 }
 
 #text_bio{
-    color: white;
+    color: $font_color;
     font-family: $font_type;
     font-size: $font_sm;
     text-align: justify;
-    padding: 25px;
+    padding: 35px;
 }

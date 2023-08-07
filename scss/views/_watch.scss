@@ -1,36 +1,55 @@
 #main_watch{
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "video_uno text_uno"
-    "text_dos video_dos";
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-items: center;
-    margin-bottom: 15px;
+    padding: 0px 35px;
 }
 
-#video_uno_watch{
-    grid-area: video_uno;
-    order: 1;
+iframe{
+    width: 100%;
 }
 
-#video_dos_watch{
-    grid-area: video_dos;
-    order: 4;
+#video_left{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-#text_uno_watch{
-    grid-area: text_uno;
-    color: white;
+#video_right{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+#video_left_watch{
+    flex-grow: 1;
+}
+
+#video_right_watch{
+    flex-grow: 1;
+}
+
+#text_left_watch{
+    display: flex;
+    flex-grow: 2;
+    padding-left: 5px;
+    color: $font_color;
     font-size: $font_lg;
     font-family: $font_type;
+    text-align: center;
+
 }
 
-#text_dos_watch{
-    grid-area: text_dos;
-    color: white;
+#text_right_watch{
+    display: flex;
+    flex-grow: 2;
+    padding-right: 5px;
+    color: $font_color;
     font-size: $font_lg;
     font-family: $font_type;
+    text-align: center;
+    justify-content: flex-end;
 }

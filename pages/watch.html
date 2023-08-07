@@ -2,35 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="..//css/style.css">
     <title>FANTASYBAND WEB</title>
 </head>
-<body>
+<body class="container-fluid">
     <header>
-        <div id="logo"><img src="../assets/img/logo.jpg" alt="logo"></div>
-        <nav id="nav_header">
-            <ul id="menu">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../pages/bio.html">BIO</a></li>
-                <li><a href="../pages/watch.html">WATCH</a></li>
-                <li><a href="../pages/tour.html">TOUR</a></li>
-                <li><a href="../pages/subscribe.html">SUBSCRIBE</a></li>
-            </ul>
-        </nav>
-    </header>
+        <nav class="navbar fixed-top navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img src="../assets/img/logo.jpg" alt="logo" width="50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/bio.html">BIO</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../pages/watch.html">WATCH</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/tour.html">TOUR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/subscribe.html">SUBSCRIBE</a></li>
+                    </div>
+                </div>
+            </nav>
+        </header>
     <main id="main_watch">
-            <div id="video_uno_watch">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex037JX3-BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div id="video_left">
+                <div id="video_left_watch">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dv8MNJchJhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div id="text_left_watch">Rock Song n°1 - (4:23)</div>
             </div>
-            <div id="text_uno_watch">Rock Song n°1 - (4:23)</div>
-            <div id="video_dos_watch">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex037JX3-BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> 
-            <div id="text_dos_watch">Rock Song n°2 - (3:25)</div>
+            <div id="video_right">
+                <div id="text_right_watch">Rock Song n°2 - (3:25)</div>
+                <div id="video_right_watch">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dv8MNJchJhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="video_left">
+                <div id="video_left_watch">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dv8MNJchJhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div id="text_left_watch">Rock Song n°3 - (2:50)</div>
+            </div>
+            <div id="video_right">
+                <div id="text_right_watch">Rock Song n°4 - (3:11)</div>
+                <div id="video_right_watch">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dv8MNJchJhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>        
     </main>
     <footer>
         <div id="follow">Follow @FANTASYBAND</div>
@@ -45,5 +67,6 @@
         </nav>
         <div id="copyright">Copyright 2023</div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
